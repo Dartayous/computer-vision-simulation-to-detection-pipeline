@@ -25,7 +25,7 @@ Build a full pipeline that:
 The dataset was generated from a custom-built Omniverse environment:
 
 ### 1. Full View
-Visual of full room view of digital twin environment. 
+Visual of full room view within digital twin environment. 
 ![Full Room](images/Full_Room_View.png)
 
 ### 2. Left View
