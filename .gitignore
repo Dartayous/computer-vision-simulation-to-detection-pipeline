@@ -1,0 +1,14 @@
+# Heavy training outputs
+output/
+*.pth
+*.pkl
+
+# Dataset/generated files
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
