@@ -1,5 +1,7 @@
 # 🧠 Simulation-to-Detection Pipeline (Project 12)
 
+### Computer Vision Detection Result
+Visual of objects detected within the digital twin environment. 
 ![Detection Preview](images/Computer_VIsion_View.png)
 
 An end-to-end computer vision pipeline built using **NVIDIA Omniverse Replicator** and **Detectron2**, demonstrating synthetic data generation, annotation cleaning, and object detection training.
@@ -22,8 +24,16 @@ Build a full pipeline that:
 
 The dataset was generated from a custom-built Omniverse environment:
 
+### 1. Full View
+Visual of full room view of digital twin environment. 
 ![Full Room](images/Full_Room_View.png)
+
+### 2. Left View
+Visual of left side of room within the digital twin environment. 
 ![Left View](images/Left_Room_View.png)
+
+### 3. Right View
+Visual of right side of room within the digital twin environment. 
 ![Right View](images/Right_Room_View.png)
 
 Scenes include:
