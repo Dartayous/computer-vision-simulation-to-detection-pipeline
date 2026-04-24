@@ -44,18 +44,6 @@ Scenes include:
 
 ---
 
-## 📸 Inference Results
-
-Model predictions on validation images:
-
-![Detection](images/Computer_Vision_View.png)
-
-✔ Tight bounding boxes
-✔ Strong multi-object detection
-✔ Clear class separation
-
----
-
 ## 📊 Results
 
 | Metric                 | Value    |
