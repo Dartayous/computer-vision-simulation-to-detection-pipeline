@@ -1,6 +1,6 @@
 # 🧠 Simulation-to-Detection Pipeline (Project 12)
 
-![Detection Preview](images/Computer_Vision_View.png)
+![Detection Preview](images/Computer_VIsion_View.png)
 
 An end-to-end computer vision pipeline built using **NVIDIA Omniverse Replicator** and **Detectron2**, demonstrating synthetic data generation, annotation cleaning, and object detection training.
 
