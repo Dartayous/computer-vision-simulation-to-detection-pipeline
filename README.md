@@ -1,4 +1,4 @@
-# 🧠 Simulation-to-Detection Pipeline (Project 12)
+# Simulation-to-Detection Pipeline (Project 12)
 
 ### Computer Vision Detection Result
 Visual of objects detected within the digital twin environment. 
@@ -8,7 +8,7 @@ An end-to-end computer vision pipeline built using **NVIDIA Omniverse Replicator
 
 ---
 
-## 🎯 Project Goal
+## Project Goal
 
 Build a full pipeline that:
 
@@ -20,7 +20,7 @@ Build a full pipeline that:
 
 ---
 
-## 🏗️ Environment (Digital Twin Scene)
+## Environment (Digital Twin Scene)
 
 The dataset was generated from a custom-built Omniverse environment:
 
@@ -44,7 +44,7 @@ Scenes include:
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric                 | Value    |
 | ---------------------- | -------- |
@@ -64,7 +64,7 @@ Scenes include:
 
 ---
 
-## 🔍 Key Engineering Insight
+## Key Engineering Insight
 
 Raw synthetic annotations contained **mesh-level noise** due to deep USD hierarchies.
 
@@ -74,11 +74,11 @@ To fix this:
 * Kept only object-level paths (e.g., `/Environment/object`)
 * Removed geometry-level entries (Cube, Cylinder, etc.)
 
-➡️ Result: Clean dataset → stable training → strong detection
+Result: Clean dataset → stable training → strong detection
 
 ---
 
-## 🧱 Pipeline Overview
+## Pipeline Overview
 
 ```
 Omniverse Replicator
@@ -98,7 +98,7 @@ Inference + Visualization
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 * NVIDIA Omniverse (USD / Replicator)
 * Python
@@ -108,7 +108,7 @@ Inference + Visualization
 
 ---
 
-## 🚀 What This Demonstrates
+## What This Demonstrates
 
 * Synthetic data generation for computer vision
 * OpenUSD pipeline understanding
@@ -119,7 +119,7 @@ Inference + Visualization
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 * Lower recall on thin / low-contrast objects (e.g., TV)
 * Dataset size limited (40 images)
@@ -127,7 +127,7 @@ Inference + Visualization
 
 ---
 
-## 📌 Future Work
+## Future Work
 
 * Increase dataset size (domain randomization)
 * Improve class balance
@@ -136,7 +136,7 @@ Inference + Visualization
 
 ---
 
-## 📎 Repository Structure
+## Repository Structure
 
 ```
 data/
@@ -147,7 +147,7 @@ src/
 
 ---
 
-## 👤 Author
+## Author
 
 Dartayous Hunter
 Digital Twin + Computer Vision Engineering
